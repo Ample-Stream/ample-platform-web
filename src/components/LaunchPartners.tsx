@@ -46,8 +46,10 @@ function LaunchPartners() {
           gap: "20px",
         }}
       >
-        {partners.map((partner) => (
+        {partners.map((partner, i) => (
           <img
+            key={`partner-${i}`}
+            alt="partner"
             src={`/images/partners/partner (${partner}).png`}
             style={{
               width: "350px",

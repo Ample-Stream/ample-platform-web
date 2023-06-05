@@ -53,6 +53,7 @@ function Features() {
     >
       {features.map((feature, i) => (
         <Box
+          key={feature.title}
           sx={{
             display: "flex",
             flexDirection: [
@@ -142,7 +143,7 @@ function Features() {
               //   animation: `${wave} 1s ease-in-out infinite alternate`,
             }}
           >
-            <img src={feature.image} style={{ height: "100%" }} />
+            <img src={feature.image} style={{ height: "100%" }} alt="feature" />
           </Box>
         </Box>
       ))}

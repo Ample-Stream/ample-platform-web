@@ -117,6 +117,7 @@ function Banner() {
         }}
       >
         <img
+          alt="banner-image"
           src="/images/ample-hero-img.jpg"
           style={{
             height: "100%",

@@ -45,7 +45,11 @@ function Investors() {
       >
         {/* <img src="/images/investor-1.svg" />
         <img src="/images/investor-2.svg" /> */}
-        <img src="/images/near-logo.png" style={{ height: "200px" }} />
+        <img
+          src="/images/near-logo.png"
+          style={{ height: "200px" }}
+          alt="near-logo"
+        />
       </Box>
     </Box>
   );
