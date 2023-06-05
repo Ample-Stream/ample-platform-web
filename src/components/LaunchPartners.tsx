@@ -41,8 +41,8 @@ function LaunchPartners() {
           display: "flex",
           flexDirection: "row",
           flexWrap: "wrap",
-          alignItems: "center",
           justifyContent: "center",
+          alignItems: "center",
           gap: "20px",
         }}
       >
