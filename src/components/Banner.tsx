@@ -27,21 +27,19 @@ function Banner() {
         gap: "50px",
         alignItems: "center",
         justifyContent: "center",
-        padding: ["10px", "10px", "10px", "40px 10px 90px 10px"],
-        background:
-          "linear-gradient(135deg,  rgba(121,39,255,0.08) 0%,rgba(155,45,242,0.08) 23.44%,rgba(243,194,255,0.09) 47.92%,rgba(222,227,255,0.25) 74.48%,rgba(140,200,255,0.2) 100%)",
+        padding: ["10px", "10px", "10px", "40px 10px 40px 10px"],
         width: "100vw",
       }}
     >
       <Box
         sx={{
-          zIndex: 0,
+          zIndex: -1,
           position: "absolute",
         }}
       >
         <Image
-          src="/images/dapp-screenshot.png"
-          sx={{ opacity: "0.1", filter: "blur(4px)" }}
+          src="/images/gradient-dark.png"
+          sx={{ opacity: "1", height: "100%" }}
         />
       </Box>
       <Box
@@ -52,7 +50,8 @@ function Banner() {
           width: ["100%", "100%", "100%", "60%"],
           alignItems: "flex-start",
           borderRadius: "16px",
-          background: "rgba(121,39,255,0.1)",
+          background:
+            "linear-gradient(135deg, hsla(0, 96%, 69%, 0.2) 0%, hsla(225, 84%, 64%, 0.2) 100%)",
           boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 12px",
           padding: ["10px", "10px", "10px", "100px 30px"],
           animation: `${fadeIn} 2s `,
@@ -63,8 +62,7 @@ function Banner() {
             color: "#FFFFFF",
             fontWeight: "700",
             fontSize: ["48px", "52px", "48px", "60px"],
-            background:
-              "linear-gradient(104.1deg, #7735E8 32.26%, #BA2DF0 80.02%, #C62CF1 88.17%)",
+            background: "#FFFFFF",
             backgroundClip: "text",
             letterSpacing: "0.02em",
             textFillColor: "transparent",
@@ -76,7 +74,7 @@ function Banner() {
         </Text>
         <Text
           sx={{
-            color: "#5a6893",
+            color: "rgba(240,240,240,1)",
             fontWeight: "400",
             fontSize: ["20px", "20px", "20px", "24px"],
             letterSpacing: "0.02em",
@@ -94,7 +92,8 @@ function Banner() {
             flexDirection: "row",
             alignItems: "center",
             gap: "30px",
-            backgroundColor: "#7735E8",
+            background:
+              "linear-gradient(135deg, hsla(0, 96%, 69%, 1) 0%, hsla(225, 84%, 64%, 1) 100%)",
             borderRadius: "16px",
             fontSize: ["18px", "18px", "18px", "20px"],
             cursor: "pointer",

@@ -28,6 +28,7 @@ function AmpleLandingPage() {
       <Features />
       <Investors />
       <LaunchPartners />
+      <Team />
       <ContactUs />
       <Footer />
     </Box>

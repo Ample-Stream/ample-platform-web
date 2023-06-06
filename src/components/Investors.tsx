@@ -6,30 +6,33 @@ function Investors() {
     <Box
       sx={{
         display: "flex",
-        flexDirection: ["column", "column", "column", "row"],
+        flexDirection: ["column", "column", "column", "column"],
         alignItems: "center",
         justifyContent: "center",
-        gap: "0px",
+        gap: "30px",
         marginBottom: "40px",
+        padding: "0px 10px 50px 10px",
+        backgroundColor: "#131321",
+        width: "100%",
       }}
     >
       <Box
         sx={{
-          zIndex: 0,
+          zIndex: -1,
           position: "absolute",
         }}
       >
-        <Image
+        {/* <Image
           src="/images/dapp-screenshot.png"
           sx={{ opacity: "0.1", filter: "blur(3px)" }}
-        />
+        /> */}
       </Box>
       <Text
         sx={{
           letterSpacing: "0.5rem",
           fontSize: "18px",
           fontWeight: "600",
-          color: "#5a6893",
+          color: "#FFFFFF",
         }}
       >
         BACKED BY
@@ -40,16 +43,11 @@ function Investors() {
           flexDirection: "row",
           alignItems: "center",
           justifyContent: "center",
-          //   gap: "50px",
+          gap: "50px",
         }}
       >
-        {/* <img src="/images/investor-1.svg" />
-        <img src="/images/investor-2.svg" /> */}
-        <img
-          src="/images/near-logo.png"
-          style={{ height: "200px" }}
-          alt="near-logo"
-        />
+        <img src="/images/investor-1.svg" />
+        <img src="/images/investor-2.svg" />
       </Box>
     </Box>
   );
