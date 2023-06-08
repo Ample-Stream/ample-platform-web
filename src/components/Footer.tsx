@@ -3,7 +3,10 @@ import React from "react";
 import { Box, Image, Text } from "theme-ui";
 import { BsTwitter } from "react-icons/bs";
 import { SiDiscord } from "react-icons/si";
+import { useRouter } from "next/router";
+import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
+
 function Footer() {
   return (
     <Box sx={{ width: "100%", background: "#2c2359" }}>
@@ -27,9 +30,15 @@ function Footer() {
             }}
             className={inter.className}
           >
-            <Text sx={{ cursor: "pointer" }}>Terms and Conditions</Text>
-            <Text sx={{ cursor: "pointer" }}>Privacy Policy</Text>
-            <Text sx={{ cursor: "pointer" }}>Contact Us</Text>
+            <Link href={"/terms"}>
+              <Text sx={{ cursor: "pointer" }}>Terms and Conditions</Text>
+            </Link>
+            <Link href={"/privacy-policy"}>
+              <Text sx={{ cursor: "pointer" }}>Privacy Policy</Text>
+            </Link>
+            <Link href={"mailto:support@ampleplatform.com"}>
+              <Text sx={{ cursor: "pointer" }}>Contact Us</Text>
+            </Link>
           </Box>
           {/* <Box
             sx={{

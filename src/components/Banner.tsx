@@ -29,12 +29,14 @@ function Banner() {
         justifyContent: "center",
         padding: ["10px", "10px", "10px", "40px 10px 40px 10px"],
         width: "100vw",
+        backgroundColor: "#0d1223",
       }}
     >
       <Box
         sx={{
           zIndex: -1,
           position: "absolute",
+          height: ["100%", "100%", "100%", "100%"],
         }}
       >
         <Image
@@ -55,6 +57,7 @@ function Banner() {
           boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 12px",
           padding: ["10px", "10px", "10px", "100px 30px"],
           animation: `${fadeIn} 2s `,
+          marginTop: "20px",
         }}
       >
         <Text

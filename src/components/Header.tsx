@@ -4,6 +4,7 @@ import { BsTwitter } from "react-icons/bs";
 
 import { SiDiscord } from "react-icons/si";
 import { Inter } from "next/font/google";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -55,20 +56,24 @@ function Header() {
           }}
           className={inter.className}
         >
-          <BsTwitter
-            style={{
-              color: "#FFFFFF",
-              fontSize: "1.5rem",
-              cursor: "pointer",
-            }}
-          />
-          <SiDiscord
-            style={{
-              color: "#FFFFFF",
-              fontSize: "1.5rem",
-              cursor: "pointer",
-            }}
-          />
+          <Link href="https://twitter.com/AMPLE_Stream">
+            <BsTwitter
+              style={{
+                color: "#FFFFFF",
+                fontSize: "1.5rem",
+                cursor: "pointer",
+              }}
+            />
+          </Link>
+          <Link href="https://discord.gg/8yUwnapFmd">
+            <SiDiscord
+              style={{
+                color: "#FFFFFF",
+                fontSize: "1.5rem",
+                cursor: "pointer",
+              }}
+            />
+          </Link>
         </Box>
       </Box>
     </Box>

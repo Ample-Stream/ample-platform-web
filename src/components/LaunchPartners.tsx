@@ -11,8 +11,8 @@ function LaunchPartners() {
         alignItems: "center",
         justifyContent: "center",
         gap: "40px",
-        marginBottom: "40px",
         padding: "30px 50px",
+        backgroundColor: "#0d1223",
       }}
     >
       <Box

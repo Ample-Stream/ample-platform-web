@@ -103,6 +103,7 @@ function Team() {
       >
         {teamMembers.map((member, i) => (
           <Box
+            key={`member-${member.name}`}
             sx={{
               backgroundColor: "#131330",
               borderRadius: "16px",

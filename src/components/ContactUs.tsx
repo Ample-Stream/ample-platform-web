@@ -39,6 +39,8 @@ function ContactUs() {
       sx={{
         display: "flex",
         flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
         width: "100%",
         backgroundColor: "#0d1223",
         padding: "40px 0px",
@@ -49,6 +51,7 @@ function ContactUs() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+          width: ["90%", "90%", "90%", "100%"],
         }}
       >
         <Box

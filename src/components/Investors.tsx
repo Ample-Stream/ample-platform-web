@@ -10,8 +10,7 @@ function Investors() {
         alignItems: "center",
         justifyContent: "center",
         gap: "30px",
-        marginBottom: "40px",
-        padding: "0px 10px 50px 10px",
+        padding: "0px 10px 90px 10px",
         backgroundColor: "#131321",
         width: "100%",
       }}
@@ -40,10 +39,10 @@ function Investors() {
       <Box
         sx={{
           display: "flex",
-          flexDirection: "row",
+          flexDirection: ["column", "column", "column", "row"],
           alignItems: "center",
           justifyContent: "center",
-          gap: "50px",
+          gap: ["20px", "20px", "20px", "50px"],
         }}
       >
         <img src="/images/investor-1.svg" />
