@@ -26,16 +26,18 @@ function Header() {
       }}
     >
       {/* Logo */}
-      <Box
-        sx={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          cursor: "pointer",
-        }}
-      >
-        <Image src="/images/logo.png" sx={{ height: "2rem" }} />
-      </Box>
+      <Link href="/">
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            cursor: "pointer",
+          }}
+        >
+          <Image src="/images/logo.png" sx={{ height: "2rem" }} />
+        </Box>
+      </Link>
 
       <Box
         sx={{
