@@ -1,18 +1,13 @@
 import React from "react";
 import { Box } from "theme-ui";
 import Header from "@/components/Header";
-import Features from "@/components/Features";
-import Banner from "@/components/Banner";
-import LaunchPartners from "@/components/LaunchPartners";
-import Team from "@/components/Team";
-import Investors from "@/components/Investors";
-import ContactUs from "@/components/ContactUs";
 import { Inter } from "next/font/google";
 import Footer from "@/components/Footer";
+import TermsTextContainer from "@/components/TermsTextContainer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-function AmpleLandingPage() {
+function AmpleTerms() {
   return (
     <Box
       sx={{
@@ -24,15 +19,10 @@ function AmpleLandingPage() {
       className={inter.className}
     >
       <Header />
-      <Banner />
-      <Features />
-      <Investors />
-      <LaunchPartners />
-      <Team />
-      <ContactUs />
+      <TermsTextContainer title="Terms & Conditions" text="" />
       <Footer />
     </Box>
   );
 }
 
-export default AmpleLandingPage;
+export default AmpleTerms;

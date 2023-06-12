@@ -11,19 +11,19 @@ function LaunchPartners() {
         alignItems: "center",
         justifyContent: "center",
         gap: "40px",
-        marginBottom: "40px",
         padding: "30px 50px",
+        backgroundColor: "#0d1223",
       }}
     >
       <Box
         sx={{
-          zIndex: 0,
+          zIndex: -1,
           position: "absolute",
         }}
       >
         <Image
-          src="/images/dapp-screenshot.png"
-          sx={{ opacity: "0.1", filter: "blur(3px)" }}
+          src="/images/gradient-dark.png"
+          sx={{ opacity: "1", height: "100%" }}
         />
       </Box>
       <Text
@@ -31,7 +31,7 @@ function LaunchPartners() {
           letterSpacing: "0.5rem",
           fontSize: "18px",
           fontWeight: "600",
-          color: "#5a6893",
+          color: "#FFFFFF",
         }}
       >
         LAUNCH PARTNERS
