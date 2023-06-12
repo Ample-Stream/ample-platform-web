@@ -76,7 +76,7 @@ function Team() {
         alignItems: "center",
         justifyContent: "center",
         gap: "40px",
-        padding: "30px 50px",
+        padding: ["30px 20px", "30px 20px", "30px 20px", "30px 50px"],
         backgroundColor: "#0d1223",
       }}
     >
@@ -120,8 +120,8 @@ function Team() {
               src={member.image}
               style={{
                 borderRadius: "16px",
-                width: "170px",
-                height: "190px",
+                width: "200px",
+                // height: "190px",
                 background:
                   "linear-gradient(135deg, hsla(0, 96%, 69%, 0.2) 0%, hsla(225, 84%, 64%, 0.2) 100%)",
               }}

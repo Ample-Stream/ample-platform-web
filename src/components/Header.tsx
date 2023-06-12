@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Image } from "theme-ui";
+import { Box, Image, Text } from "theme-ui";
 import { BsTwitter } from "react-icons/bs";
 
 import { SiDiscord } from "react-icons/si";
@@ -53,7 +53,7 @@ function Header() {
             display: "flex",
             flexDirection: "row",
             alignItems: "center",
-            gap: "30px",
+            gap: ["20px", "20px", "20px", "30px"],
             fontSize: "14px",
           }}
           className={inter.className}
@@ -75,6 +75,22 @@ function Header() {
                 cursor: "pointer",
               }}
             />
+          </Link>
+          <Link
+            href="https://ample.docsend.com/view/ddfv59hrnw3fgnby"
+            target="blank"
+          >
+            <Text
+              sx={{
+                color: "rgba(240,240,240,1)",
+                fontWeight: "700",
+                fontSize: "16px",
+                letterSpacing: "0.04em",
+                lineHeight: "2rem",
+              }}
+            >
+              Pitch Deck
+            </Text>
           </Link>
         </Box>
       </Box>

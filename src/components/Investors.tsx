@@ -10,7 +10,7 @@ function Investors() {
         alignItems: "center",
         justifyContent: "center",
         gap: "30px",
-        padding: "0px 10px 90px 10px",
+        padding: "20px 10px 90px 10px",
         backgroundColor: "#131321",
         width: "100%",
       }}

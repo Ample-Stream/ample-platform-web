@@ -18,25 +18,25 @@ function Features() {
       title: "Streaming",
       subTitle: "On-Chain Streaming",
       text: " Experience On-Chain Streaming with Ample's Platform. Support your favorite creators and owners directly, knowing that each stream contributes to their success.",
-      image: "/images/feature-screenshot-3.png",
+      image: "/images/mvp-screenshot-3.png",
     },
     {
       title: "Distribution",
       subTitle: "Creators and Consumers working together",
       text: "Elevate Your Content with AMPLE. Upload Top-Tier Content, Mint NFTs, and Automatically Reach the Streaming Platform and NFT Marketplace.",
-      image: "/images/feature-screenshot-2.png",
+      image: "/images/mvp-screenshot-2.png",
     },
     {
       title: "Purchasing and Financing",
       subTitle: "Simplified Payouts and Ownership with Smart Contracts",
       text: "Real-Time Earnings and Transparency: With on-chain autopay and smart contracts, creators and owners receive instant payouts, while record labels, production companies, fans, and creators all reap the financial and legal benefits of our transparent distribution network and dashboard.",
-      image: "/images/feature-screenshot-1.png",
+      image: "/images/mvp-screenshot-1.png",
     },
     {
       title: "Create your Portfolio",
       subTitle: "Let People follow the work you Create or Finance",
       text: "Build Your Following and Amplify Your Collections: Showcase Your Portfolio, NFTs for Sale, and Supported Projects on Your Community Profile. Create a Network Effect for Your Name or Brand and Connect with a Thriving Community.",
-      image: "/images/feature-screenshot-4.png",
+      image: "/images/mvp-screenshot-4.png",
     },
   ];
 
@@ -44,11 +44,11 @@ function Features() {
     <Box sx={{ width: "100vw", backgroundColor: "#131321" }}>
       <Box
         sx={{
-          padding: "30px 120px",
+          padding: "30px 120px 60px 120px",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
-          gap: "0px",
+          gap: "40px",
           animation: `${fadeIn} 2s `,
         }}
       >
@@ -129,7 +129,7 @@ function Features() {
                 flexDirection: "row",
                 justifyContent: "center",
                 alignItems: "center",
-                height: ["400px", "450px", "450px", "500px"],
+                height: ["200px", "250px", "250px", "350px"],
                 //   animation: `${wave} 1s ease-in-out infinite alternate`,
               }}
             >
