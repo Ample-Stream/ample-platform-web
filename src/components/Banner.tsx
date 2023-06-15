@@ -6,7 +6,7 @@ import {
   BsTwitter,
 } from "react-icons/bs";
 import { SiDiscord } from "react-icons/si";
-import { Box, Button, Image, Text } from "theme-ui";
+import { Box, Button, Image, Link, Text } from "theme-ui";
 import { Kanit } from "next/font/google";
 import { keyframes } from "@emotion/react";
 
@@ -89,26 +89,28 @@ function Banner() {
           Web3 Innovation
         </Text>
 
-        <Button
-          sx={{
-            display: "flex",
-            flexDirection: "row",
-            alignItems: "center",
-            gap: "30px",
-            background:
-              "linear-gradient(135deg, hsla(0, 96%, 69%, 1) 0%, hsla(225, 84%, 64%, 1) 100%)",
-            borderRadius: "16px",
-            fontSize: ["18px", "18px", "18px", "20px"],
-            cursor: "pointer",
-            ":hover": {
-              backgroundColor: "#7310E0",
-            },
-            zIndex: 3,
-          }}
-        >
-          Visit the Platform
-          <BsArrowRight />
-        </Button>
+        <Link href="https://app.ample.stream" target="blank">
+          <Button
+            sx={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              gap: "30px",
+              background:
+                "linear-gradient(135deg, hsla(0, 96%, 69%, 1) 0%, hsla(225, 84%, 64%, 1) 100%)",
+              borderRadius: "16px",
+              fontSize: ["18px", "18px", "18px", "20px"],
+              cursor: "pointer",
+              ":hover": {
+                backgroundColor: "#7310E0",
+              },
+              zIndex: 3,
+            }}
+          >
+            Visit the Platform
+            <BsArrowRight />
+          </Button>
+        </Link>
       </Box>
       <Box
         sx={{
