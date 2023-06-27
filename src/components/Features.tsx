@@ -114,9 +114,8 @@ function Features() {
                   fontSize: "20px",
                   letterSpacing: "0.05em",
                   lineHeight: "1.6rem",
-                  width: ["fit-content", "fit-content", "fit-content", "500px"],
-                  textAlign: "justify",
-                  wordBreak: "keep-all",
+                  width: ["fit-content", "fit-content", "fit-content", "fit-content"],
+                  wordBreak: "break-word",
                 }}
                 className={roboto.className}
               >
