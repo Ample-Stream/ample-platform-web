@@ -89,7 +89,7 @@ function Header() {
                 lineHeight: "2rem",
               }}
             >
-              Pitch Deck
+              Tokenomics
             </Text>
           </Link>
         </Box>
