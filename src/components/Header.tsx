@@ -77,7 +77,7 @@ function Header() {
             />
           </Link>
           <Link
-            href="https://ample.docsend.com/view/ddfv59hrnw3fgnby"
+            href="https://ample.docsend.com/view/v9bgdsp9t5xzmci4"
             target="blank"
           >
             <Text
