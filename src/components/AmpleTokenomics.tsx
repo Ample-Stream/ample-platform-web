@@ -34,7 +34,7 @@ function AmpleTokenomics() {
           alignItems: "center",
         }}
       >
-        <Text sx={{fontSize:"20px"}}>Redirecting to Ample's Tokenomics document.</Text>
+        <Text sx={{fontSize:"20px"}}>Redirecting to Ample&apos;s Tokenomics document.</Text>
       </Box>
       <Footer />
     </Box>
