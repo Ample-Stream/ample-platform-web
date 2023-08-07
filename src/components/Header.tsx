@@ -76,7 +76,10 @@ function Header() {
               }}
             />
           </Link>
-          {/* <Link href="/tokenomics" target="blank">
+          <Link
+            href="https://ample.docsend.com/view/ddfv59hrnw3fgnby"
+            target="blank"
+          >
             <Text
               sx={{
                 color: "rgba(240,240,240,1)",
@@ -86,9 +89,9 @@ function Header() {
                 lineHeight: "2rem",
               }}
             >
-              Tokenomics
+              Pitch Deck
             </Text>
-          </Link> */}
+          </Link>
         </Box>
       </Box>
     </Box>
