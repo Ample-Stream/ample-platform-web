@@ -73,7 +73,7 @@ function Banner() {
           }}
           className={kanit.className}
         >
-          Unlock the Future of Entertainment
+          Capture your part of the $2T Media and Entertainment Market
         </Text>
         <Text
           sx={{
@@ -84,9 +84,7 @@ function Banner() {
             lineHeight: "2rem",
           }}
         >
-          Embrace the Next Wave of Entertainment: Revolutionizing Streaming,
-          Distribution, and Financing for Film, Show, and Music Productions with
-          Web3 Innovation
+          Premier IP + Media launchpad, distribution and streaming rails powered by film, show and music digital assets.
         </Text>
 
         <Link href="https://app.ample.stream" target="blank">
