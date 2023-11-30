@@ -12,7 +12,7 @@ function Team() {
 		},
 		{
 			position: "SMART COTNRACT DEV & GROWTH",
-			name: "Rog Serving",
+			name: "Rog Servin",
 			description:
 				"Blockchain dev + consultant for Yuya, Adidas, Kueski Pay, Hedgie, NFTreats, and Genopets. Previous Co-founder of NFT collections Space Skulls and Wavy Valley. Former digital strategist who helped clients amass millions of views and subscribers. Clients include Neshudo, Oso Trava and Mad Cripto.",
 			image: "/images/team/rog.png",
