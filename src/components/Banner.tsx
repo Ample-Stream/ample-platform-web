@@ -93,7 +93,8 @@ function Banner() {
               display: "flex",
               flexDirection: "row",
               alignItems: "center",
-              gap: "30px",
+              gap: "10px",
+			  padding: '20px',
               background:
                 "linear-gradient(135deg, hsla(0, 96%, 69%, 1) 0%, hsla(225, 84%, 64%, 1) 100%)",
               borderRadius: "16px",

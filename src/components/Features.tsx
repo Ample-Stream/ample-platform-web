@@ -1,7 +1,8 @@
 import { keyframes } from "@emotion/react";
 import { Kanit, Roboto } from "next/font/google";
 import React from "react";
-import { Box, Image, Text } from "theme-ui";
+import { BsArrowRight, BsRocketTakeoff } from "react-icons/bs";
+import { Box, Button, Flex, Image, Link, Text } from "theme-ui";
 
 const kanit = Kanit({ weight: "700", subsets: ["latin"] });
 const roboto = Roboto({ weight: "500", subsets: ["latin"] });
@@ -141,6 +142,36 @@ function Features() {
 						</Box>
 					</Box>
 				))}
+
+				<Flex
+					sx={{
+						width: '100%',
+						justifyContent: 'center'
+					}}
+				>
+					<Link href="https://app.ample.stream/launch-your-project" target="blank">
+						<Button
+							sx={{
+								display: "flex",
+								alignItems: "center",
+								gap: "10px",
+								padding: '20px',
+								background:
+									"linear-gradient(135deg, hsla(0, 96%, 69%, 1) 0%, hsla(225, 84%, 64%, 1) 100%)",
+								borderRadius: "16px",
+								fontSize: ["18px", "18px", "18px", "20px"],
+								cursor: "pointer",
+								":hover": {
+									backgroundColor: "#7310E0",
+								},
+								zIndex: 3,
+							}}
+						>
+							Launch with us
+							<BsRocketTakeoff />
+						</Button>
+					</Link>
+				</Flex>
 			</Box>
 		</Box>
 	);
