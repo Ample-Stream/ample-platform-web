@@ -8,6 +8,7 @@ function Team() {
 			name: "Kenny Johns",
 			description:
 				"Senior Producer/Editor for major networks including Nat Geo, Discovery, MTV/Viacom. Built broadcast SOPs, delivered award-winning commercials plus 100’s of network content pieces.  Serial entrepreneur with 16+ years of biz dev, project management, sales, and marketing experience. Selected as one of DC's Top 100 Innovators.",
+				"Selected as one of DC’s Top 100 Innovators. Serial Entrepreneur; previously scaled hybrid agency to $500k ARR. Former Senior Producer and Editor for major networks including Nat Geo, Discovery, MTV/Viacom. Delivered award-winning content to millions of viewers.",
 			image: "/images/team/kenny.png",
 		},
 		{
