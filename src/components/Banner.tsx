@@ -87,7 +87,7 @@ function Banner() {
           Premier IP + Media Protocol providing launchpad, distribution and streaming rails powered by film, show and music digital assets
         </Text>
 
-        <Link href="https://app.ample.stream" target="blank">
+        <Link href="https://app.ampleprotocol.xyz" target="blank">
           <Button
             sx={{
               display: "flex",

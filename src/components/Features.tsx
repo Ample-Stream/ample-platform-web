@@ -149,7 +149,7 @@ function Features() {
 						justifyContent: 'center'
 					}}
 				>
-					<Link href="https://app.ample.stream/launch-your-project" target="blank">
+					<Link href="https://app.ampleprotocol.xyz/launch-your-project" target="blank">
 						<Button
 							sx={{
 								display: "flex",
