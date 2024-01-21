@@ -73,7 +73,7 @@ function Banner() {
           }}
           className={kanit.className}
         >
-          Capture your part of the $2T Media and Entertainment Market
+          Decentralizing a $2.5T Global Media & Entertainment Market and Creator Economy
         </Text>
         <Text
           sx={{
@@ -84,10 +84,10 @@ function Banner() {
             lineHeight: "2rem",
           }}
         >
-          Premier IP + Media launchpad, distribution and streaming rails powered by film, show and music digital assets.
+          Premier IP + Media Protocol providing launchpad, distribution and streaming rails powered by film, show and music digital assets
         </Text>
 
-        <Link href="https://app.ample.stream" target="blank">
+        <Link href="https://app.ampleprotocol.xyz" target="blank">
           <Button
             sx={{
               display: "flex",
@@ -106,7 +106,7 @@ function Banner() {
               zIndex: 3,
             }}
           >
-            Visit the Platform
+            Test the Platform
             <BsArrowRight />
           </Button>
         </Link>

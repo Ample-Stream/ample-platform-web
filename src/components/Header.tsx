@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Image, Text } from "theme-ui";
-import { BsTwitter } from "react-icons/bs";
+import { BsFileText, BsMedium, BsTwitter } from "react-icons/bs";
 
 import { SiDiscord } from "react-icons/si";
 import { Inter } from "next/font/google";
@@ -58,7 +58,25 @@ function Header() {
           }}
           className={inter.className}
         >
-          <Link href="https://twitter.com/AMPLE_Stream">
+          <Link href="https://ample-platform.gitbook.io/ample-whitepaper">
+            <BsFileText
+              style={{
+                color: "#FFFFFF",
+                fontSize: "1.5rem",
+                cursor: "pointer",
+              }}
+            />
+		  </Link>
+          <Link href="https://medium.com/@AMPLE.STREAM">
+            <BsMedium
+              style={{
+                color: "#FFFFFF",
+                fontSize: "1.5rem",
+                cursor: "pointer",
+              }}
+            />
+		  </Link>
+          <Link href="https://twitter.com/AmpleProtocol">
             <BsTwitter
               style={{
                 color: "#FFFFFF",
