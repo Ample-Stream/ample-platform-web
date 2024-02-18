@@ -94,6 +94,7 @@ function Features() {
 									letterSpacing: "0.02em",
 									textFillColor: "transparent",
 								}}
+								as="h2"
 								className={kanit.className}
 							>
 								{feature.title}
