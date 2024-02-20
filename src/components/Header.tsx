@@ -1,12 +1,8 @@
 import React from "react";
 import { Box, Image, Text } from "theme-ui";
-import { BsFileText, BsMedium, BsTwitter } from "react-icons/bs";
-
-import { SiDiscord } from "react-icons/si";
-import { Inter } from "next/font/google";
 import Link from "next/link";
+import NavDrawer from "./NavDrawer";
 
-const inter = Inter({ subsets: ["latin"] });
 
 function Header() {
 	return (
@@ -39,83 +35,8 @@ function Header() {
 				</Box>
 			</Link>
 
-			<Box
-				sx={{
-					flexDirection: "row",
-					gap: "20px",
-					alignItems: "center",
-					justifyContent: "center",
-					display: "flex",
-				}}
-			>
-				<Box
-					sx={{
-						display: "flex",
-						flexDirection: "row",
-						alignItems: "center",
-						gap: ["20px", "20px", "20px", "30px"],
-						fontSize: "14px",
-					}}
-					className={inter.className}
-				>
-					<Link href="https://medium.com/@AMPLE.STREAM">
-						<BsMedium
-							style={{
-								color: "#FFFFFF",
-								fontSize: "1.5rem",
-								cursor: "pointer",
-							}}
-						/>
-					</Link>
-					<Link href="https://twitter.com/AmpleProtocol">
-						<BsTwitter
-							style={{
-								color: "#FFFFFF",
-								fontSize: "1.5rem",
-								cursor: "pointer",
-							}}
-						/>
-					</Link>
-					<Link href="https://discord.gg/8yUwnapFmd">
-						<SiDiscord
-							style={{
-								color: "#FFFFFF",
-								fontSize: "1.5rem",
-								cursor: "pointer",
-							}}
-						/>
-					</Link>
-					<Link href="https://ample-platform.gitbook.io/ample-whitepaper">
-						<Text
-							sx={{
-								color: "rgba(240,240,240,1)",
-								fontWeight: "700",
-								fontSize: "16px",
-								letterSpacing: "0.04em",
-								lineHeight: "2rem",
-							}}
-						>
-							Whitepaper
-						</Text>
-					</Link>
-					<Link
-						href="https://ample.docsend.com/view/ddfv59hrnw3fgnby"
-						target="blank"
-					>
-						<Text
-							sx={{
-								color: "rgba(240,240,240,1)",
-								fontWeight: "700",
-								fontSize: "16px",
-								letterSpacing: "0.04em",
-								lineHeight: "2rem",
-							}}
-						>
-							Pitch Deck
-						</Text>
-					</Link>
-				</Box>
-			</Box>
+			{/* links  */}
+			<NavDrawer />
 		</Box>
 	);
 }
